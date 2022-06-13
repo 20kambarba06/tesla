@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ////////////FATHER///////////////// */
+.tesla {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.tesla_none {
+    display: none;
+}
+
+/* ////////////FATHER///////////////// */
+
+
+/* ////////////TESLA///////////////// */
+.tesla_photo {
+    margin: 0 auto;
+    width: 1080px;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(./img/image\ 1.svg);
+}
+
+.tesla_photo_post {
+    margin: 0 auto;
+    width: 1080px;
+    height: 500px;
+    background-image: url(./img/image\ 1.svg);
+    background-size: 100%;
+    background-position: center;
+    animation: aziz 1s;
+}
+
+@keyframes aziz {
+    0% {
+        background-position: center;
+        background-size: 100%;
+    }
+
+    100% {
+        background-position: center;
+        background-size: 400%;
+    }
+}
+
+
+/* ////////////TESLA///////////////// */
+
+
+/* ////////////DOOR///////////////// */
+.door {
+    z-index: 100;
+    left: 838px;
+    top: 210px;
+    height: 97px;
+    width: 154px;
+    opacity: 0.1;
+    background-color: #ADB3B3;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.door_two {
+    background-color: blue;
+}
+
+/* ////////////DOOR///////////////// */
+
+
+/* ////////////SALON///////////////// */
+.azizs_salon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.azizs_salon_none {
+    display: none;
+}
+
+.salon_photo {
+    margin: 0 auto;
+    width: 1080px;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(./img/black.svg);
+}
+
+.salon_photo_black {
+    margin: 0 auto;
+    width: 1080px;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(./img/black.svg);
+}
+
+.salon_photo_white {
+    margin: 0 auto;
+    width: 1080px;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(./img/white.svg);
+}
+
+.salon_photo_milk {
+    margin: 0 auto;
+    width: 1080px;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(./img/milk.svg);
+}
+
+.range {
+    color: #707070;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.km {
+    padding-left: 750px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 105px;
+}
+
+.left {
+    width: 120px;
+    height: 60px;
+    margin-left: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.az {
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.whatcolor {
+    padding-left: 550px;
+    color: #707070;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.car_style {
+    padding-left: 100px;
+    color: #707070;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.right {
+    width: 120px;
+    height: 60px;
+    margin-left: 70px;
+}
+
+.stick {
+    margin-top: 15px;
+    width: 39px;
+    height: 24px;
+    background-color: #8E9AA7;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.stick_post {
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 39px;
+    height: 24px;
+    background-color: #004DFF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.round {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 2px;
+}
+
+.round_post {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 17px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.colors {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: #EFEFEF;
+}
+
+.milk {
+    background-color: #E6DDD0;
+}
+
+/* ////////////SALON///////////////// */
